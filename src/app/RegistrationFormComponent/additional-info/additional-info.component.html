@@ -1,1 +1,28 @@
-<p>additional-info-component works!</p>
+<fieldset>
+
+  <label for="profile-picture">
+    Upload a profile :
+    <input id="profile-picture" type="file" name="file" />
+  </label>
+
+  <label for="age">
+    Input your age (years):
+    <input id="age" type="number" min="13" max="120" />
+  </label>
+
+  <label for="referrer">
+    How did your hear about us?
+    <select id="referrer" name="referrer">
+      <option value="">(Select one)</option>
+      <option value="1">FreeCodeCamp News</option>
+      <option value="2">FreeCodeCamp Channel</option>
+      <option value="3">FreeCodeCamp Forum</option>
+      <option value="4">Other</option>
+    </select>
+  </label>
+
+  <label>
+    Provide a bio:
+    <textarea name="bio" id="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
+  </label>
+</fieldset>
